@@ -28,3 +28,24 @@ Esta es la necesidad de información que busca cubrir el presente observatorio: 
 duplicar las estadísticas ya publicadas, sino construir, a partir de la integración
 de varias fuentes, indicadores y relaciones que apoyen decisiones de priorización  de intervenciones de seguridad vial
 por parte de entidades públicas y privadas.
+
+
+## Cómo ejecutar
+
+1. Clona el repositorio y abre `Proyecto_integrador_Entrega_2_DanielaBaena_JefersonCardona.ipynb` en Jupyter o en Google Colab.
+2. Instala las dependencias si no las tienes:
+```bash
+   pip install pandas requests openpyxl
+```
+3. Ejecuta las celdas en orden, de arriba hacia abajo — cada sección depende de que la anterior ya haya corrido (extracción → unión de muertes y lesiones → extracción de GEIH → cruce final).
+4. Necesitas conexión a internet: el notebook descarga los datos en vivo desde `datos.gov.co` y `dane.gov.co`, no usa archivos locales. La descarga completa toma unos minutos por el volumen de registros (más de 400.000 entre las dos fuentes).
+5. Al final, el notebook genera automáticamente el archivo `base_maestra_accidentalidad_colombia.csv` en la misma carpeta donde lo estés corriendo.
+
+## Dónde encontrar la base de datos
+
+- **Ya construida, para consulta rápida:** [Ver en Google Drive](https://drive.google.com/file/d/1scXzoYoH9dImZJhG4sTJjZ6BrST2TvKb/view?usp=drive_link) *(no se subió el CSV completo al repositorio por su tamaño)*.
+- **Generada desde cero:** corriendo el notebook completo como se indica arriba, queda disponible como `base_maestra_accidentalidad_colombia.csv`.
+
+## Documentación del proceso
+
+Para el detalle de la problemática, las preguntas de análisis, el proceso de extracción y la integración de las fuentes, ver el informe [`Informe_entrega2_DanielaBaena_JefersonCardona.pdf`](./Informe_entrega2_DanielaBaena_JefersonCardona.pdf) incluido en este repositorio.
