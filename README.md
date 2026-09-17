@@ -1,3 +1,10 @@
+## **Observatorio de Accidentalidad Vial en Colombia: Integración de Datos para la Toma de Decisiones**
+
+**Jeferson Cardona — Daniela Baena**
+
+Introducción a la Analítica de Negocios -
+Universidad de Antioquia
+
 ## **Problemática**
 
 Los siniestros viales en Colombia son una de las principales causas de muerte en el
