@@ -32,14 +32,10 @@ por parte de entidades públicas y privadas.
 
 ## Cómo ejecutar
 
-1. Clona el repositorio y abre `Proyecto_integrador_Entrega_2_DanielaBaena_JefersonCardona.ipynb` en Jupyter o en Google Colab.
-2. Instala las dependencias si no las tienes:
-```bash
-   pip install pandas requests openpyxl
-```
-3. Ejecuta las celdas en orden, de arriba hacia abajo — cada sección depende de que la anterior ya haya corrido (extracción → unión de muertes y lesiones → extracción de GEIH → cruce final).
-4. Necesitas conexión a internet: el notebook descarga los datos en vivo desde `datos.gov.co` y `dane.gov.co`, no usa archivos locales. La descarga completa toma unos minutos por el volumen de registros (más de 400.000 entre las dos fuentes).
-5. Al final, el notebook genera automáticamente el archivo `base_maestra_accidentalidad_colombia.csv` en la misma carpeta donde lo estés corriendo.
+1. Abre `Proyecto_integrador_Entrega_2_DanielaBaena_JefersonCardona.ipynb` en Jupyter o en Google Colab.
+2. Ejecuta las celdas en orden, de arriba hacia abajo — cada sección depende de que la anterior ya haya corrido.
+3. Necesitas conexión a internet: el notebook descarga los datos en vivo desde `datos.gov.co` y `dane.gov.co`, no usa archivos locales. La descarga completa toma unos minutos por el volumen de registros (más de 400.000 entre las dos fuentes).
+4. Al final, el notebook genera automáticamente el archivo `base_maestra_accidentalidad_colombia.csv` en la misma carpeta donde lo estés corriendo.
 
 ## Dónde encontrar la base de datos
 
